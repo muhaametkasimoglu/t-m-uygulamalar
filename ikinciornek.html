@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>uygulama tekrarı 2</title>
+  </head>
+  <body>
+    <h2>form elemanları</h2>
+    <h3>basit form</h3>
+    <form>
+      <label for="isim">isim:</label>
+      <input type="text" id="isim" placeholder="isiminizi girin" />
+      <label for="email">email:</label>
+      <input type="email" name="email" id="email" placeholder="email giriniz" />
+      <label for="sifre">sifre:</label>
+      <input type="password" id="sifre" placeholder="sifre giriniz" />
+      <br />
+      <br />
+      <input type="submit" value="gönder" />
+    </form>
+    <h1>form elemanları ve semantic html</h1>
+    <h2>form elemanları</h2>
+    <h3>farklı ınput türleri</h3>
+    <form>
+      <label for="numara ">numara :</label>
+      <input
+        type="numara"
+        name="numara"
+        id="numara "
+        placeholder="numara giriniz"
+        min="0"
+        max="100"
+      />
+      <br /><br />
+      <label for="tarih">tarih:</label>
+      <input type="date" id="tarih" name="tarih" placeholder="tarihi giriniz" />
+      <br /><br />
+      <label for="renk">renk:</label>
+      <input type="color" name="renk " id="renk " placeholder="renk giriniz" />
+      <br /><br />
+      <label for="dosya">dosya:</label>
+      <input
+        type="file"
+        name="dosya"
+        id="dosya"
+        placeholder="dosyayı giriniz"
+      />
+      <br /><br />
+      <input type="submit" value="gönder" />
+    </form>
+    <h2>form elemanları</h2>
+    <h3>text area ve gelişmiş form</h3>
+    <form>
+      <label for="mesaj">mesajınız:</label>
+      <textarea
+        name="mesaj"
+        id="mesaj"
+        rows="4"
+        cols="50"
+        placeholder="mesajınızı giriniz"
+      >
+mesajınız</textarea
+      >
+      <br /><br />
+
+      <label for="zorunlu alan">zorunlu alan</label>
+      <input
+        type="text"
+        id="zorunlu"
+        name="zorunlu alan"
+        placeholder="zorunlu alan giriniz"
+      />
+      <input type="submit" value="gönder" />
+      <input type="reset" value="temizle" />
+      <h3>checkbox ve radio button</h3>
+      <form>
+        <p>hangi dilleri biliyorsun? (birden fazla seç)</p>
+        <input type="checkbox" name="dil" id="html" />
+        <label for="html">html</label>
+        <br /><br />
+        <input type="checkbox" name="dil" id="css" />
+        <label for="css">css</label>
+        <br /><br />
+        <input type="checkbox" name="dil" id="java" />
+        <label for="java">java</label>
+        <br /><br />
+      </form>
+      <p>seviye seçin</p>
+      <input type="radio" name="seviye" id="baslangıc" />
+      <label for="baslangıc">baslangıc</label>
+      <br /><br />
+      <input type="radio" name="seviye" id="orta" />
+      <label for="orta">orta</label>
+      <br /><br />
+      <input type="radio" name="seviye" id="ileri" />
+      <label for="ileri">ileri</label>
+      <br /><br />
+      <label for="sehir">sehir:</label>
+      <input type="sehir" name="sehir" id="sehir" placeholder="sehir sec" />
+
+      <br /><br />
+      <input type="submit" value="gönder" />
+      <br /><br />
+      <input type="reset" value="temizle" />
+    </form>
+    <h2>Div ve Span - kapsayıcı elemanları</h2>
+    <h3>Div kullanımı (Block Element)</h3>
+    <div style="background-color: antiquewhite">
+      <h4>bu bir div içeriği</h4>
+      <p>div block seviyesinde bir elemandır</p>
+    </div>
+    <div style="background-color: aqua">
+      <h4>ikinci div</h4>
+      <p>Her div yeni satırdan başlar.</p>
+    </div>
+    <h3>span kullanımı (ınline element)</h3>
+    <p>
+      bu paragrafta
+      <span style="color: blueviolet"> mor arka plan kullanıldı</span>
+    </p>
+  </body>
+</html>
