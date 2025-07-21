@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>css 1 uygulama</title>
+    <style>
+      body {
+        font-family: Arial, Helvetica, sans-serif;
+        margin: 0;
+        padding: 20px;
+        background-color: #f5f5f5;
+      }
+      h1 {
+        color: #2c3e50;
+        text-align: center;
+      }
+    </style>
+    <style>
+        h1{
+            color: aqua;
+            text-align: center;
+        }
+        .mavi-kutu{
+            background-color: blue;
+            color: aquamarine;
+            padding: 15px;
+            margin: 10px 0;
+            border-radius: 5px;
+        }
+        .kirmizi-yazi{
+            color: #f39c12; 
+            font-weight: bold;
+        }
+        #ozel-paragraf{
+               background-color: #f39c12;
+            color: white;
+            padding: 10px;
+            border-left: 5px solid #d35400;
+        }
+        h2,h3{
+            color:#27ae60; 
+            border-bottom:2px solid #2ecc71 ;
+        }
+        .liste-container li{
+                background-color: #ecf0f1;
+            margin: 5px 0;
+            padding: 8px;
+            border-radius: 3px;
+        }
+    </style>
+  </head>
+  <body>
+     <h1>CSS Ders 1: Temel CSS Özellikleri</h1>
+    
+    <h2>CSS Seçiciler</h2>
+    
+    <h3>Etiket Seçici</h3>
+    <p>Tüm p etiketleri body'deki font-family'yi alır.</p>
+    
+    <h3>Class Seçici (.class)</h3>
+    <div class="mavi-kutu">
+        Bu div'e "mavi-kutu" class'ı verildi. Mavi arka plan ve beyaz yazı.
+    </div>
+    
+    <p class="kirmizi-yazi">Bu paragraf "kirmizi-yazi" class'ına sahip.</p>
+    
+    <h3>ID Seçici (#id)</h3>
+    <p id="ozel-paragraf">Bu paragraf "ozel-paragraf" ID'sine sahip. ID sadece bir kez kullanılabilir!</p>
+    
+    <h3>Çoklu Seçici</h3>
+    <p>H2 ve H3 etiketleri aynı stili paylaşır (yeşil renk ve alt çizgi).</p>
+    
+    <h3>Çocuk Seçici</h3>
+    <div class="liste-container">
+        <ul>
+            <li>Liste öğesi 1</li>
+            <li>Liste öğesi 2</li>
+            <li>Liste öğesi 3</li>
+        </ul>
+    </div>
+    <h1>CSS ders 1: Temel CSS özellikleri</h1>
+    <h2>CSS yazma yöntemleri</h2>
+    <h3>1.ınline CSS</h3>
+    <p style="color: brown; font-size: 18px; font-weight: bold">
+      Bu paragraf inline CSS ile stillendirildi. Doğrudan HTML etiketine style
+      özelliği eklendi
+    </p>
+      
+    <h3>2. Internal CSS</h3>
+    <p>Bu paragraf internal CSS ile stillendirildi. Head bölümündeki style etiketinden geliyor.</p>
+    
+    <h3>3. External CSS</h3>
+    <p>External CSS ayrı bir .css dosyasında yazılır ve link etiketiyle bağlanır.</p>
+</body>
+  </body>
+</html>

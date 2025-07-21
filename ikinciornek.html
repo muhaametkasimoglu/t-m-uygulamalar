@@ -119,5 +119,54 @@ mesajınız</textarea
       bu paragrafta
       <span style="color: blueviolet"> mor arka plan kullanıldı</span>
     </p>
+
+    <h2>Semantic HTML - Anlamlı HTML</h2>
+
+    <header style="background-color: #f0f0f0; padding: 10px">
+      <h3>Site Başlığı (Header)</h3>
+      <nav>
+        <ul>
+          <li><a href="#ana-sayfa">Ana Sayfa</a></li>
+          <li><a href="#hakkinda">Hakkında</a></li>
+          <li><a href="#iletisim">İletişim</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <section style="background-color: #e8f4f8; padding: 10px; margin: 10px">
+        <h3>Ana İçerik Bölümü (Section)</h3>
+        <article style="background-color: white; padding: 10px; margin: 10px">
+          <h4>Makale Başlığı (Article)</h4>
+          <p>
+            Bu bir makale içeriğidir. Article etiketi bağımsız içerik parçaları
+            için kullanılır.
+          </p>
+        </article>
+
+        <article style="background-color: white; padding: 10px; margin: 10px">
+          <h4>İkinci Makale</h4>
+          <p>
+            Bu da başka bir makale. Her article kendi başına anlamlı olmalı.
+          </p>
+        </article>
+      </section>
+
+      <aside style="background-color: #fff3cd; padding: 10px; margin: 10px">
+        <h3>Yan Panel (Aside)</h3>
+        <p>Yan bilgiler, reklamlar veya ek içerikler buraya gelir.</p>
+      </aside>
+    </main>
+
+    <footer
+      style="
+        background-color: #6c757d;
+        color: white;
+        padding: 10px;
+        text-align: center;
+      "
+    >
+      <p>&copy; 2025 - Site Alt Bilgi (Footer)</p>
+    </footer>
   </body>
 </html>
